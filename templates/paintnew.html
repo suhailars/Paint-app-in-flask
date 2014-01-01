@@ -1,9 +1,12 @@
 <html>
 <head><title>paint</title>
-
+<strong><link rel="stylesheet" href="{{ url_for('static', filename='css/main3.css') }}"></strong>
 <table>
 <tr align="center">
         <canvas id = "canvas" width=1280 height=400 style="background-color:white;border: 5px solid #000000"></canvas></div>
+<a href="{{url_for('gallery')}}"  >
+    <button  class="button">Gallery</button>
+</a>
 
 <script src="{{url_for('static',filename='min.js')}}"></script>
 <form><center>
